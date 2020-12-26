@@ -1,0 +1,38 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-flutteraws-dev-125620-authRole",
+			"UnauthRoleArn": "arn:aws:iam::239916441169:role/amplify-flutteraws-dev-125620-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::239916441169:role/amplify-flutteraws-dev-125620-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-flutteraws-dev-125620-deployment",
+			"UnauthRoleName": "amplify-flutteraws-dev-125620-unauthRole",
+			"StackName": "amplify-flutteraws-dev-125620",
+			"StackId": "arn:aws:cloudformation:us-east-1:239916441169:stack/amplify-flutteraws-dev-125620/b554ed20-4736-11eb-a7e6-12b95c73a183",
+			"AmplifyAppId": "dgm1bu2bmrjf0"
+		}
+	},
+	"auth": {
+		"flutterawsf18a9ce4": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false,
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-flutteraws-dev-125620-deployment/amplify-cfn-templates/auth/flutterawsf18a9ce4-cloudformation-template.yml",
+				"logicalId": "authflutterawsf18a9ce4"
+			},
+			"lastPushTimeStamp": "2020-12-26T05:13:27.040Z",
+			"output": {
+				"AppClientSecret": "13c2cumlg9ar5m2vd38govmh9akmbroeap968j82gmgcjaegn8m9",
+				"UserPoolId": "us-east-1_FH2pJ5xmb",
+				"AppClientIDWeb": "62kh1hfmv6i01am2o2m7hmiun2",
+				"AppClientID": "6e9njhic4u2616besln3p30psa",
+				"IdentityPoolId": "us-east-1:b157d395-557d-4ae7-b188-e2c71a783dee",
+				"IdentityPoolName": "flutterawsf18a9ce4_identitypool_f18a9ce4__dev",
+				"UserPoolName": "flutterawsf18a9ce4_userpool_f18a9ce4"
+			},
+			"lastPushDirHash": "b859kr2RKjqfNvtmDc3WC5mGIMs="
+		}
+	}
+}
